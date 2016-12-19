@@ -1,0 +1,37 @@
+*vim-paragraph.txt* Vim plain text utilities.
+===============================================================================
+#                                                                             #
+#                                Vim-Paragraph                                #
+#                                                                             #
+===============================================================================
+CONTENTS                                                    *paragraph-contents*
+
+    1. Intro........................................|paragraph-intro|
+    2. Options......................................|paragraph-options|
+
+===============================================================================
+INTRO                                                          *paragraph-intro*
+
+Vim-Paragraph adds simple functionality for editing markdown and latex files
+with ease
+
+===============================================================================
+COMMANDS                                                   *paragraph-functions*
+
+Overview:~
+
+  |ToggleWrap|................Toggles Functionality
+
+
+-------------------------------------------------------------------------------
+  :ToggleWrap                                                     *ToggleWrap*
+  Toggles the hard line wrap on and off
+  (default on)
+
+
+-------------------------------------------------------------------------------
+
+First public release: 2016/12/19
+
+===============================================================================
+vim:ft=help:et:ts=2:sw=2:sts=2:norl
