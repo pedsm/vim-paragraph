@@ -1,4 +1,5 @@
-ctrlp-contents	vim-paragraph.txt	/*ctrlp-contents*
+ToggleWrap	vim-paragraph.txt	/*ToggleWrap*
+paragraph-contents	vim-paragraph.txt	/*paragraph-contents*
 paragraph-functions	vim-paragraph.txt	/*paragraph-functions*
 paragraph-intro	vim-paragraph.txt	/*paragraph-intro*
 vim-paragraph.txt	vim-paragraph.txt	/*vim-paragraph.txt*

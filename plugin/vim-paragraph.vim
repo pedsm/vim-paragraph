@@ -13,3 +13,10 @@ function! ToggleWrap()
 endfunction
 "Toggle functionality on and off
 command! ToggleWrap call ToggleWrap()
+"capital K functionality
+map K kJ
+"Adds the Ctrl hjkl functionality
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap <C-h> <Left>
+imap <C-l> <Right>
