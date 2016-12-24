@@ -6,9 +6,11 @@
 ===============================================================================
 CONTENTS                                                    *paragraph-contents*
 
+    1.  Contents.....................................|paragraph-contents|
     1.  Intro........................................|paragraph-intro|
     2.  Commands.....................................|paragraph-functions|
-    2.2 Key Maps ....................................|paragraph-keys|
+    3.  Key Maps ....................................|paragraph-keys|
+    3.1 Insert Mode .................................|insert-keys|
 
 ===============================================================================
 INTRO                                                          *paragraph-intro*
@@ -29,6 +31,12 @@ KEY MAPS                                                        *paragraph-keys*
 
   |K|.........................Line merging inverse of J
 
+INSERT MDOE                                                        *insert-keys*
+
+  |<C-h>|.........................h on insert mode
+  |<C-j>|.........................j on insert mode
+  |<C-k>|.........................k on insert mode
+  |<C-l>|.........................l on insert mode
 
 -------------------------------------------------------------------------------
   :ToggleWrap                                                     *ToggleWrap*
