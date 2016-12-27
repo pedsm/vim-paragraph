@@ -3,9 +3,7 @@ A simple paragraph for working with text files, this allows for hard word wrappi
 
 
 ## Functionality
-Vim will automatically hard wrap your lines allowing for easier line navigation on long lines of text such as paragraphs on
-.tex and .md files
+Vim now uses visual jk which means j and k will move only one visual line instead of a whole file line. This is useful while writing plain text as vim treats paragraphs as a single long line. Vim paragraph also allows for quick hard line wrapping with one function and quick hjkl navigation inside insert mode. Vim's defautl spell checker is also default for certain file extensions.
 
 ### Ctrl-hjkl
-While on insert mode vim-paragraph allows you to use the famous hjkl without leaving insert mode while holding Ctrl. Never
-reach for those arrow keys again.
+While on insert mode vim-paragraph allows you to use the famous hjkl without leaving insert mode while holding Ctrl. Never reach for those arrow keys again.
