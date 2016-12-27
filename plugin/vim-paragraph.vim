@@ -1,6 +1,6 @@
 "Set hard word wrap
 set wm=2
-let g:wrapBool = 1
+let g:wrapBool = 0
 
 function! ToggleWrap()
     if g:wrapBool
@@ -11,10 +11,12 @@ function! ToggleWrap()
         set wm=2
     endif
 endfunction
-"Toggle functionality on and off
+"Toggle hard wrap functionality on and off
 command! ToggleWrap call ToggleWrap()
 "capital K functionality
 map K kJ
+map j gj
+map k gk
 "Adds the Ctrl hjkl functionality
 imap <C-j> <Down>
 imap <C-k> <Up>

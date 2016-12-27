@@ -1,5 +1,7 @@
 ToggleWrap	vim-paragraph.txt	/*ToggleWrap*
+insert-keys	vim-paragraph.txt	/*insert-keys*
 paragraph-contents	vim-paragraph.txt	/*paragraph-contents*
 paragraph-functions	vim-paragraph.txt	/*paragraph-functions*
 paragraph-intro	vim-paragraph.txt	/*paragraph-intro*
+paragraph-keys	vim-paragraph.txt	/*paragraph-keys*
 vim-paragraph.txt	vim-paragraph.txt	/*vim-paragraph.txt*
