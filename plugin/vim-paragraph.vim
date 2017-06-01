@@ -15,7 +15,7 @@ function! ToggleWrap()
 endfunction
 
 "Toggle spellcheck
-function! spellCheck()
+function! SpellCheck()
     if g:spell == 0
         if exists(g:language)
             set spell spelllang=g:language
@@ -32,7 +32,7 @@ endfunction
 "Toggle hard wrap functionality on and off
 command! ToggleWrap call ToggleWrap()
 "capital K functionality
-command SpellCheck call spellCheck()
+command SpellCheck call SpellCheck()
 map K kJ
 map j gj
 map k gk
